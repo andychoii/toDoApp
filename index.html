@@ -13,11 +13,17 @@
       class="form-control"
       placeholder="Add a new item..."
     />
-    <button id="addBtn" class="btn btn-primary">Add</button>
+    <select id="priority" class="form-control" name="priority">
+      <option value="1">Priority 1</option>
+      <option value="2">Priority 2</option>
+      <option value="3">Priority 3</option>
+    </select>
+    <button onclick="addTask()" id="addBtn" class="btn btn-primary">Add</button>
     <ul>
       <li>Task 1</li>
       <li>Task 2</li>
       <li>Task 3</li>
     </ul>
+    <script src="script.js"></script>
   </body>
 </html>
